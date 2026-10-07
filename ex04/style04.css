@@ -1,0 +1,33 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*this for reset the margin and padding */
+/*that the browser already gave your page */
+
+.boxes-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.box1 {
+    width: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2.5px solid green;
+    background-color: #b0bbb0;
+    box-sizing: content-box;
+}
+
+.box2 {
+    width: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2.5px solid green;
+    background-color: #b0bbb0;
+    box-sizing: border-box;
+}
