@@ -1,0 +1,50 @@
+.palate-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.NamedColor {
+    width: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.HEXColor {
+    width: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #00ff00;
+}
+
+.RGBColor {
+    width: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 255);
+}
+
+.RGBAColor {
+    width: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.Opacity {
+    width: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.5);
+    opacity: 0.5;
+}
+
+.RGBAtrans {
+    width: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.5);
+}
